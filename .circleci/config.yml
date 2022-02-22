@@ -29,6 +29,9 @@ jobs:
       - run:
           name: Run tests
           command: npm test
+      - run:
+          name: Run Test Command
+          command: echo "Testing"         
 
 workflows:
   # Below is the definition of your workflow.
